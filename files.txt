@@ -1,0 +1,2 @@
+/mnt/d/Arshad/Freelancing/Websphere/logs/SystemErr.log
+/mnt/d/Arshad/Freelancing/Websphere/logs/native_stderr.log

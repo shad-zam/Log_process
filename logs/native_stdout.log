@@ -1,0 +1,568 @@
+[1/17/20 6:12:14:407 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[1/17/20 6:12:14:585 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[1/17/20 6:12:14:599 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[1/17/20 6:12:14:627 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@1245457
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 7406066
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-7406066
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[2/20/20 13:03:00:341 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[2/20/20 13:03:00:619 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[2/20/20 13:03:00:657 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[2/20/20 13:03:00:764 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@51644a88
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 7406068
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-7406068
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[2/21/20 12:33:12:764 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[2/21/20 12:33:12:932 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[2/21/20 12:33:12:964 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[2/21/20 12:33:12:978 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@91fc1afd
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 16581050
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-16581050
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[2/27/20 7:55:36:037 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[2/27/20 7:55:36:259 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[2/27/20 7:55:36:266 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[2/27/20 7:55:36:280 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@b6c5b0ca
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18481470
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18481470
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[3/5/20 10:07:13:634 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[3/5/20 10:07:13:793 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[3/5/20 10:07:13:803 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[3/5/20 10:07:13:825 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@8cc58c9
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18481472
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18481472
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeGetProcessCPU___3J_3I out of memory j
+[3/6/20 13:25:56:690 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[3/6/20 13:25:56:979 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[3/6/20 13:25:56:987 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[3/6/20 13:25:57:008 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@cd591fa4
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18481474
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18481474
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[3/16/20 8:44:44:394 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[3/16/20 8:44:44:540 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[3/16/20 8:44:44:548 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[3/16/20 8:44:44:563 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@74f31ea1
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18481478
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18481478
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/3/20 20:51:25:038 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/3/20 20:51:25:210 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/3/20 20:51:25:222 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/3/20 20:51:25:249 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@d2a0579
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18219270
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18219270
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/4/20 17:21:07:760 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/4/20 17:21:07:939 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/4/20 17:21:07:970 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/4/20 17:21:08:008 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@760df9ee
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 16450010
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-16450010
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/5/20 19:53:53:539 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/5/20 19:53:53:688 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/5/20 19:53:53:695 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/5/20 19:53:53:709 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@b8238570
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 16777542
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-16777542
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/29/20 11:30:01:677 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/29/20 11:30:02:009 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/29/20 11:30:02:049 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/29/20 11:30:02:147 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@30b6923e
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 6816156
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-6816156
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/29/20 11:34:23:079 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/29/20 11:34:23:228 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/29/20 11:34:23:260 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/29/20 11:34:23:300 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@711eb641
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 6816158
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-6816158
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[7/3/20 17:31:31:249 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[7/3/20 17:31:31:493 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[7/3/20 17:31:31:539 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[7/3/20 17:31:31:603 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@590a2c66
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 7012694
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-7012694
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[7/5/20 21:14:44:911 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[7/5/20 21:14:45:062 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[7/5/20 21:14:45:094 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[7/5/20 21:14:45:110 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@806d2867
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 7012696
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-7012696
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[8/4/20 18:33:53:732 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[8/4/20 18:33:53:932 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[8/4/20 18:33:53:955 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[8/4/20 18:33:54:006 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@63c24d0d
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 7012698
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-7012698
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[8/18/20 15:45:45:848 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[8/18/20 15:45:46:022 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[8/18/20 15:45:46:056 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[8/18/20 15:45:46:099 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@7dc1e92d
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 5570996
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-5570996
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[9/2/20 21:32:22:461 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[9/2/20 21:32:22:637 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[9/2/20 21:32:22:651 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[9/2/20 21:32:22:678 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@1ad620e4
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 8323396
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-8323396
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[9/17/20 19:24:22:445 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[9/17/20 19:24:22:684 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[9/17/20 19:24:22:747 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[9/17/20 19:24:22:805 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@546cd4bb
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 14156284
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-14156284
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[10/6/20 8:00:42:386 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[10/6/20 8:00:42:630 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[10/6/20 8:00:42:684 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[10/6/20 8:00:42:776 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@546cd4bb
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 14680556
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-14680556
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[10/25/20 21:32:16:761 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[10/25/20 21:32:16:974 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[10/25/20 21:32:17:010 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[10/25/20 21:32:17:056 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@7c76261a
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 14156042
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-14156042
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[11/7/20 21:24:04:447 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[11/7/20 21:24:04:611 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[11/7/20 21:24:04:643 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[11/7/20 21:24:04:684 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@5bc35122
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 11928044
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-11928044
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[2/12/21 21:12:06:375 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[2/12/21 21:12:06:698 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[2/12/21 21:12:06:794 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[2/12/21 21:12:06:881 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@97a99bfe
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18284854
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18284854
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/13/21 7:50:18:973 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/13/21 7:50:19:143 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/13/21 7:50:19:176 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/13/21 7:50:19:212 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@69e21668
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18940400
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18940400
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/15/21 6:15:43:753 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/15/21 6:15:43:916 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/15/21 6:15:43:926 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/15/21 6:15:43:951 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@52e6adbd
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 10355144
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-10355144
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/16/21 6:34:36:776 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/16/21 6:34:36:925 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/16/21 6:34:36:953 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/16/21 6:34:36:989 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@8e272abd
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 13435244
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-13435244
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[4/19/21 7:30:57:832 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[4/19/21 7:30:57:976 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[4/19/21 7:30:57:983 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[4/19/21 7:30:57:998 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@48ea762b
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18153922
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18153922
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017
+[7/13/21 13:26:12:095 SAST] 00000001 ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:io.github.wdr.perfmon.influxdb.InfluxDbSink=off.
+[7/13/21 13:26:12:315 SAST] 00000001 ManagerAdmin  I   TRAS0040I: The configured trace state included the following specifications that do not match any loggers currently registered in the server: io.github.wdr.perfmon.influxdb.InfluxDbSink=off Ignore this message if the trace specifications io.github.wdr.perfmon.influxdb.InfluxDbSink=off are valid.
+[7/13/21 13:26:12:355 SAST] 00000001 ManagerAdmin  A   TRAS0007I: Logging to the service log is disabled
+[7/13/21 13:26:12:452 SAST] 00000001 ProviderTrack I com.ibm.ffdc.osgi.ProviderTracker AddingService FFDC1007I: FFDC Provider Installed: com.ibm.ffdc.util.provider.FfdcOnDirProvider@a5e570b1
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.16 [ND 8.5.5.16 cf161930.02] [IBMJAVA71 7.1.2.0 cf041446.01] [IBMJAVA8 8.0.5.37 cf161930.01] running with process name DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01 and process id 18153958
+Full server name is DmgrFntPre01\FntCPENode01\Fnt_CPEI_ClusterMem01-18153958
+Host Operating System is AIX, version 7.2
+Java version = 1.8.0_211, Java Runtime Version = 8.0.5.37 - pap6480sr5fp37-20190618_01(SR5 FP37), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /fnt/AppServer
+user.install.root = /fnt/FntCPE01
+Java Home = /fnt/AppServer/java_1.8_64/jre
+ws.ext.dirs = /fnt/AppServer/java_1.8_64/lib:/fnt/FntCPE01/classes:/fnt/AppServer/classes:/fnt/AppServer/lib:/fnt/AppServer/installedChannels:/fnt/AppServer/lib/ext:/fnt/AppServer/web/help:/fnt/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /fnt/FntCPE01/properties:/fnt/AppServer/properties:/fnt/AppServer/lib/startup.jar:/fnt/AppServer/lib/bootstrap.jar:/fnt/AppServer/lib/jsf-nls.jar:/fnt/AppServer/lib/lmproxy.jar:/fnt/AppServer/lib/urlprotocols.jar:/fnt/AppServer/deploytool/itp/batchboot.jar:/fnt/AppServer/deploytool/itp/batch2.jar:/fnt/AppServer/java_1.8_64/lib/tools.jar
+Java Library path = /fnt/AppServer/lib/native/aix/ppc_64/:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/compressedrefs:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/ppc64/j9vm:/fnt/AppServer/java_1.8_64/jre/lib/ppc64:/fnt/AppServer/java_1.8_64/jre/../lib/ppc64:/fnt/AppServer/java_1.8_64/jre/lib/icc:/fnt/AppServer/bin:/fnt/AppServer/nulldllsdir:/usr/lib64:/usr/lib:
+Orb Version = IBM Java ORB build orb80-20190308.00
+Max file descriptor count = 9223372036854775807
+************* End Display Current Environment *************
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode ENTER
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_nativeEnableDebugMode EXIT
+ProcessCPU Java_com_ibm_ws_xd_pmi_processcpu_ProcessCPU_initStats ENTER BuildTime:20:16:07 BuildDate:Mar 30 2017

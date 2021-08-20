@@ -1,0 +1,31 @@
+    - name: get name space details
+      uri:
+        url: https://admin.zammihcpcenpda1.metmom.mmih.biz:9090/mapi/tenants/{{tenant}}/namespaces/{{namespaces}}?prettyprint
+        validate_certs: false
+        return_content: yes
+        method: GET
+        headers:
+          Authorization: "{{ cen_auth }}"
+          Accept: "{{ head_accpt }}"
+      register: response
+
+    - set_fact:
+        h_quota: "{{ response.json.hardQuota.split()[0] }}"
+
+    - name: cen namespaces stats
+      uri:
+        url: https://admin.zammihcpcenpda1.metmom.mmih.biz:9090/mapi/tenants/{{tenant}}/namespaces/{{namespaces}}/statistics?prettyprint
+        validate_certs: false
+        return_content: yes
+        method: GET
+        headers:
+          Authorization: "{{ cen_auth }}"
+          Accept: "{{ head_accpt }}"
+      register: response
+
+    - set_fact:
+        usage: "{{'{:0.2f}'.format(response.json.storageCapacityUsed|float / 1100000000000) }}"
+#        usage: "{{ response.json.storageCapacityUsed  }}"
+
+    - set_fact:
+        percentage: "{{usage | float}} / {{usage | float}} "
