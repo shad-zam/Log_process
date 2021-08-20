@@ -1,40 +1,12 @@
 ---
-- name: Hitachi stats
-  hosts: localhost
+- name: Get Logs
+  hosts: all
   gather_facts: false
+  become: yes
+  roles:
+    - fetch_logs
   vars:
     files: []
-
-
-
-  tasks:
-    - name: get files
-      find:
-        age: -1m
-        file_type: any
-        paths: /mnt/d/Arshad/Freelancing/Websphere/logs/
-      register: find_output
-
-    - name: create files list
-      set_fact:
-        files: '{{ files + [item.path] }}'
-      with_items: "{{ find_output.files}}"
-
-    - debug:
-        var: files
-
-    - name: fetch all log files
-      fetch:
-        src: item
-        dest: /mnt/d/Arshad/Freelancing/Websphere/
-      with_items: "{{ files }}"
-
-    - name: run the python
-      script: /mnt/d/Arshad/Freelancing/Websphere/search2.py
-      register: output
-
-    - debug:
-        var: output.stdout_lines
 
 
 

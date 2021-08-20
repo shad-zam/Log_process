@@ -1,14 +1,14 @@
-#- name: get files
-#  find:
-#    age: -1m
-#    file_type: any
-#    paths: /mnt/d/Arshad/Freelancing/Websphere/logs/
-#    register: find_output
+- name: get files
+  find:
+    age: -2h
+    file_type: any
+    paths: "path{{ inventory_hostname}}"
+    register: find_output
 
 - name: create files list
   set_fact:
     files: '{{ files + [item.path] }}'
-  with_items: "{{ files}}"
+  with_items: "{{ find_output.files}}"
 
 - debug:
         var: files

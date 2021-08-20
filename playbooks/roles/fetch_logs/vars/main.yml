@@ -1,2 +1,3 @@
 ---
-files = ["SystemErr.log","SystemOut.log"]
+files: ["SystemErr.log","SystemOut.log"]
+path : "/waslogs/DmgrFntPrd01/FntCPENode01/Fnt_CPEI_ClusterMem"
