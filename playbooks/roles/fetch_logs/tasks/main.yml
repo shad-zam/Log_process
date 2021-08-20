@@ -1,0 +1,14 @@
+#- name: get files
+#  find:
+#    age: -1m
+#    file_type: any
+#    paths: /mnt/d/Arshad/Freelancing/Websphere/logs/
+#    register: find_output
+
+- name: create files list
+  set_fact:
+    files: '{{ files + [item.path] }}'
+  with_items: "{{ files}}"
+
+- debug:
+        var: files
