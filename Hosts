@@ -2,4 +2,4 @@
 mmifntcpeprd201 ansible_connection=ssh ansible_ssh_user=niroy ansible_ssh_pass=Omsairam@123
 
 [02]
-mmifntcpeprd201 ansible_connection=ssh ansible_ssh_user=niroy ansible_ssh_pass=Omsairam@123
+mmifntcpeprd202 ansible_connection=ssh ansible_ssh_user=niroy ansible_ssh_pass=Omsairam@123
