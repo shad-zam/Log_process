@@ -2,7 +2,7 @@
   find:
     age: -2h
     file_type: any
-    paths: "path{{ inventory_hostname}}"
+    paths: "path{{ num }}"
   register: find_output
 
 - debug:
