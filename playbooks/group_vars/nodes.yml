@@ -1,7 +1,9 @@
 ---
 
 node-01:
-  num: 01
+  vars:
+    num: 01
 
 node-02:
-  num: 02
+  vars:
+    num: 02
