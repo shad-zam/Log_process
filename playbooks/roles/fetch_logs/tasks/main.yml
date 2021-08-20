@@ -5,11 +5,11 @@
   find:
     age: -2h
     file_type: any
-    paths: "path{{ num }}"
+    paths: "{{path}}{{ num }}"
   register: find_output
 
 - debug:
-    msg: "{{path}}{{ inventory_hostname}}"
+    msg: "{{path}}{{ num}}"
 
 #- name: create files list
 #  set_fact:
