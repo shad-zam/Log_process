@@ -16,7 +16,7 @@
 
 - name: fetch files
   fetch:
-    src: "{{ item }}"
+    src: "path/{{ item }}"
     dest: "./logs/prefix-{{ inventory_hostname }}"
   register: fetch_output
   with_items: "{{ files }}"
