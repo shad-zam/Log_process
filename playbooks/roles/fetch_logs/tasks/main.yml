@@ -3,7 +3,7 @@
     age: -2h
     file_type: any
     paths: "path{{ inventory_hostname}}"
-    register: find_output
+  register: find_output
 
 - name: create files list
   set_fact:
