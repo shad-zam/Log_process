@@ -1,3 +1,9 @@
 [nodes]
+node-01
+node-02
+
+[node-01]
 mmifntcpeprd201 ansible_connection=ssh ansible_ssh_user=niroy ansible_ssh_pass=Omsairam@123
+
+[node-02]
 mmifntcpeprd202 ansible_connection=ssh ansible_ssh_user=niroy ansible_ssh_pass=Omsairam@123
