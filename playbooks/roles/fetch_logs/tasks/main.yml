@@ -19,6 +19,7 @@
     src: "{{ item }}"
     dest: "./logs/prefix-{{ inventory_hostname }}"
   register: fetch_output
+  with_items: "{{ files }}"
 
 - debug:
     verbosity: 2
