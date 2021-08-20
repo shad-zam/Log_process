@@ -1,3 +1,6 @@
+- debug:
+    var: num
+
 - name: get files
   find:
     age: -2h
