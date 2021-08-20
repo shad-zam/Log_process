@@ -3,10 +3,11 @@
   hosts: all
   gather_facts: false
   become: yes
+  vars_files:
+    - group_vars/all.yml
+    - group_vars/nodes.yml
   roles:
     - fetch_logs
-  vars:
-    files: []
 
 
 
