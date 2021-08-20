@@ -1,6 +1,6 @@
 ---
 - name: Get Logs
-  hosts: all
+  hosts: nodes
   gather_facts: false
   become: yes
   vars_files:

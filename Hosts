@@ -7,3 +7,9 @@ mmifntcpeprd201 ansible_connection=ssh ansible_ssh_user=niroy ansible_ssh_pass=O
 
 [node-02]
 mmifntcpeprd202 ansible_connection=ssh ansible_ssh_user=niroy ansible_ssh_pass=Omsairam@123
+
+[node-01:vars]
+num=01
+
+[node-02:vars]
+num=02
