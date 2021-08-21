@@ -66,7 +66,7 @@
     create: yes
     dest: "../files/{{ inventory_hostname }}"
     line: "{{ item }}"
-  with_list: copies
+  with_list: "{{copies}}"
 
 #- name: get files from 1st location
 #  local_action:
