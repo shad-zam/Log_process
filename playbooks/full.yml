@@ -1,0 +1,34 @@
+---
+- name: Get Logs
+  hosts: nodes_test
+  gather_facts: false
+  become: no
+  vars_files:
+    - group_vars/all.yml
+    - group_vars/nodes.yml
+  roles:
+    - fetch_logs
+
+- name: Local function
+  hosts: localhost
+  gather_facts: false
+  become: no
+  vars_files:
+    - group_vars/all.yml
+    - group_vars/nodes.yml
+  roles:
+    - keyword_search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
