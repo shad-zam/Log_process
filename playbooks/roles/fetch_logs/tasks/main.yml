@@ -64,25 +64,25 @@
   local_action:
     module: lineinfile
     create: yes
-    dest: "../files/{{ inventory_hostname }}/files"
+    dest: "../files/{{ inventory_hostname }}"
     line: "{{ item }}"
   with_list: copies
 
-- name: get files from 1st location
-  local_action:
-    module: find
-    age: -2h
-    file_type: file
-    paths: ../logs/
-  register: find_output3
-  run_once: yes
+#- name: get files from 1st location
+#  local_action:
+#    module: find
+#    age: -2h
+#    file_type: file
+#    paths: ../logs/
+#  register: find_output3
+#  run_once: yes
 
 
 
-- name: create files list
-  set_fact:
-    local: '{{ local + [item.path] }}'
-  with_items: "{{ find_output3.files}}"
-
-- debug:
-    var: local
+#- name: create files list
+#  set_fact:
+#    local: '{{ local + [item.path] }}'
+#  with_items: "{{ find_output3.files}}"
+#
+#- debug:
+#    var: local
