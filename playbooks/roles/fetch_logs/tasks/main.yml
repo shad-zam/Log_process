@@ -1,6 +1,6 @@
 ---
 
-- name: get files
+- name: get files from 1st location
   find:
     age: -2h
     file_type: any
@@ -16,6 +16,22 @@
     files: '{{ files + [item.path] }}'
   with_items: "{{ find_output.files}}"
 
+- name: get files from 2nd location
+  find:
+    age: -2h
+    file_type: any
+    paths: "{{path3}}{{ num }}"
+  register: find_output2
+
+- debug:
+    msg: "{{path3}}{{ num }}"
+    verbosity: 2
+
+- name: add to files list
+  set_fact:
+    files: '{{ files + [item.path] }}'
+  with_items: "{{ find_output2.files}}"
+
 - debug:
     verbosity: 2
     var: files
@@ -25,6 +41,8 @@
     src: "{{ item }}"
     dest: "../logs/{{ inventory_hostname }}/"
     flat: yes
+    fail_on_missing: no
+    validate_checksum: no
   register: fetch_output
   with_items: "{{ files }}"
   when: files|length > 0
@@ -32,3 +50,12 @@
 - debug:
     verbosity: 2
     var: fetch_output
+
+- name: create list of files copied
+  set_fact:
+    copies: '{{ copies + [item.dest] }}'
+  with_items: "{{ fetch_output.results}}"
+
+- debug:
+    var: copies
+    verbosity: 2
