@@ -20,14 +20,14 @@
     verbosity: 2
     var: files
 
-- name: fetch files
-  fetch:
-    src: "{{ item }}"
-    dest: "../logs/prefix-{{ inventory_hostname }}"
-    flat: yes
-  register: fetch_output
-  with_items: "{{ files }}"
-
-- debug:
-    verbosity: 2
-    var: fetch_output
+#- name: fetch files
+#  fetch:
+#    src: "{{ item }}"
+#    dest: "../logs/prefix-{{ inventory_hostname }}"
+#    flat: yes
+#  register: fetch_output
+#  with_items: "{{ files }}"
+#
+#- debug:
+#    verbosity: 2
+#    var: fetch_output
