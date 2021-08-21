@@ -1,5 +1,4 @@
-- debug:
-    var: num
+---
 
 - name: get files
   find:
@@ -10,23 +9,24 @@
 
 - debug:
     msg: "{{path}}{{ num}}"
+    verbosity: 2
 
-#- name: create files list
-#  set_fact:
-#    files: '{{ files + [item.path] }}'
-#  with_items: "{{ find_output.files}}"
-#
-#- debug:
-#    verbosity: 2
-#    var: files
-#
-#- name: fetch files
-#  fetch:
-#    src: "{{ path }}/{{ item }}"
-#    dest: "./logs/prefix-{{ inventory_hostname }}"
-#  register: fetch_output
-#  with_items: "{{ files }}"
-#
-#- debug:
-#    verbosity: 2
-#    var: fetch_output
+- name: create files list
+  set_fact:
+    files: '{{ files + [item.path] }}'
+  with_items: "{{ find_output.files}}"
+
+- debug:
+    verbosity: 2
+    var: files
+
+- name: fetch files
+  fetch:
+    src: "{{ path }}/{{ item }}"
+    dest: "./logs/prefix-{{ inventory_hostname }}"
+  register: fetch_output
+  with_items: "{{ files }}"
+
+- debug:
+    verbosity: 2
+    var: fetch_output
