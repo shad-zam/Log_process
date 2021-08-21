@@ -59,11 +59,23 @@
 - debug:
     var: copies
     verbosity: 2
+#
+#- name: write list of file per host
+#  local_action:
+#    module: lineinfile
+#    create: yes
+#    dest: "../files/{{ inventory_hostname }}/files"
+#    line:
+#  with_items: copies
 
-- name: write list of file per host
+- name: get files from 1st location
   local_action:
-    module: copy
-    dest: "../files/{{ inventory_hostname }}/files"
-    content: |
-      {{ item }}
-  with_items: copies
+    module: find
+    age: -2h
+    file_type: any
+    paths: ../logs/
+  register: find_output3
+  run_once: yes
+
+- debug:
+    var: find_output3
