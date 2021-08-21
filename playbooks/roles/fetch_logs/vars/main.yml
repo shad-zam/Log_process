@@ -1,6 +1,7 @@
 ---
 files: []
 copies: []
+local: []
 path1 : "/waslogs/DmgrFntPrd01/FntCPENode"
 path2 : "/Fnt_CPEI_ClusterMem"
 path3 : "/fnt/FntCPE01/FileNet/Fnt_CPEI_ClusterMem"
