@@ -23,7 +23,7 @@
 - name: fetch files
   fetch:
     src: "{{ item }}"
-    dest: "../logs/prefix-{{ inventory_hostname }}"
+    dest: "../logs/{{ inventory_hostname }}/"
     flat: yes
   register: fetch_output
   with_items: "{{ files }}"
