@@ -1,0 +1,15 @@
+---
+
+- name: create one file
+  assemble:
+    src: "../files/"
+    dest: "../files/file.txt"
+  register: output
+
+- debug:
+    var: output
+    verbosity: 2
+
+
+
+

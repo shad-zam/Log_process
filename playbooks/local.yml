@@ -1,0 +1,24 @@
+---
+- name: Local function
+  hosts: localhost
+  gather_facts: false
+  become: no
+  vars_files:
+    - group_vars/all.yml
+    - group_vars/nodes.yml
+  roles:
+    - keyword_search
+
+
+
+
+
+
+
+
+
+
+
+
+
+

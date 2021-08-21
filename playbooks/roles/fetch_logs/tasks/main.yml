@@ -1,5 +1,32 @@
 ---
 
+- name: delete logs folder
+  local_action:
+    module: file
+    path: "../logs/"
+    state: absent
+  run_once: yes
+
+- name: delete files folder
+  local_action:
+    module: file
+    path: "../files/"
+    state: absent
+  run_once: yes
+
+- name: create logs folder
+  local_action:
+    module: file
+    path: "../logs/{{ inventory_hostname }}/"
+    state: directory
+
+- name: create files folder
+  local_action:
+    module: file
+    path: "../files/"
+    state: directory
+  run_once: yes
+
 - name: get files from 1st location
   find:
     age: -2h
@@ -68,21 +95,3 @@
     line: "{{ item }}"
   with_list: "{{copies}}"
 
-#- name: get files from 1st location
-#  local_action:
-#    module: find
-#    age: -2h
-#    file_type: file
-#    paths: ../logs/
-#  register: find_output3
-#  run_once: yes
-
-
-
-#- name: create files list
-#  set_fact:
-#    local: '{{ local + [item.path] }}'
-#  with_items: "{{ find_output3.files}}"
-#
-#- debug:
-#    var: local
