@@ -78,4 +78,4 @@
   run_once: yes
 
 - debug:
-    var: find_output3
+    var: find_output3.files
