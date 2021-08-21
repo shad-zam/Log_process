@@ -65,4 +65,5 @@
     module: copy
     dest: "../files/{{ inventory_hostname }}/files"
     content: |
-      {{ copies }}
+      {{ item }}
+  with_items: copies
