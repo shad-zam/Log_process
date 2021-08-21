@@ -59,3 +59,10 @@
 - debug:
     var: copies
     verbosity: 2
+
+- name: write list of file per host
+  local_action:
+    module: copy
+    dest: "../files/{{ inventory_hostname }}/files"
+    content: |
+      {{ copies }}
