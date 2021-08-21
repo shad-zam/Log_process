@@ -10,6 +10,13 @@
     var: output
     verbosity: 2
 
+- name: run python script
+  script: ../search2.py ../files/file.txt
+  register: script_output
+
+- debug:
+    var: script_output
+
 
 
 

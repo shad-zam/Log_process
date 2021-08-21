@@ -16,7 +16,7 @@ print(file)
 
 # logFiles = ["/mnt/d/Arshad/Freelancing/Websphere/logs/SystemErr.log","/mnt/d/Arshad/Freelancing/Websphere/logs/native_stderr.log"]
 logFiles = open(file).read().splitlines()
-keyWords = ("sunyy","manager","max")
+keyWords = ("hung","error","sql")
 
 print(logFiles)
 
