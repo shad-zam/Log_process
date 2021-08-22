@@ -1,33 +1,33 @@
 ---
 
-- name: delete logs folder
+- name: delete the local logs folder if exist
   local_action:
     module: file
     path: "../logs/"
     state: absent
   run_once: yes
 
-- name: delete files folder
+- name: delete local files folder if exists
   local_action:
     module: file
     path: "../files/"
     state: absent
   run_once: yes
 
-- name: create logs folder
+- name: create new folder to store log files locally
   local_action:
     module: file
     path: "../logs/{{ inventory_hostname }}/"
     state: directory
 
-- name: create files folder
+- name: create new folder to store files locally
   local_action:
     module: file
     path: "../files/"
     state: directory
   run_once: yes
 
-- name: get files from 1st location
+- name: check all the log files from 1st log location
   find:
     age: -2h
     file_type: any
@@ -38,12 +38,12 @@
     msg: "{{path1}}{{ num }}{{path2}}{{ num }}"
     verbosity: 2
 
-- name: create files list
+- name: create a list with log files
   set_fact:
     files: '{{ files + [item.path] }}'
   with_items: "{{ find_output.files}}"
 
-- name: get files from 2nd location
+- name: check all the log files from 2nd log location
   find:
     age: -2h
     file_type: any
@@ -54,7 +54,7 @@
     msg: "{{path3}}{{ num }}"
     verbosity: 2
 
-- name: add to files list
+- name: add the new files to the list of files
   set_fact:
     files: '{{ files + [item.path] }}'
   with_items: "{{ find_output2.files}}"
@@ -63,7 +63,7 @@
     verbosity: 2
     var: files
 
-- name: fetch files
+- name: copy all files to local machine
   fetch:
     src: "{{ item }}"
     dest: "../logs/{{ inventory_hostname }}/"
@@ -78,7 +78,7 @@
     verbosity: 2
     var: fetch_output
 
-- name: create list of files copied
+- name: create a list of files which copied to local machine
   set_fact:
     copies: '{{ copies + [item.dest] }}'
   with_items: "{{ fetch_output.results}}"
@@ -87,7 +87,7 @@
     var: copies
     verbosity: 2
 
-- name: write list of file per host
+- name: write the list of files to a local file
   local_action:
     module: lineinfile
     create: yes

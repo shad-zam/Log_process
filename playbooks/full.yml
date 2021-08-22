@@ -1,5 +1,5 @@
 ---
-- name: Get Logs
+- name: collect all logs and copy to local
   hosts: nodes_test
   gather_facts: false
   become: no
@@ -9,7 +9,7 @@
   roles:
     - fetch_logs
 
-- name: Local function
+- name: Process the log file for errors
   hosts: localhost
   gather_facts: false
   become: no

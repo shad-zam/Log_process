@@ -1,6 +1,6 @@
 ---
 
-- name: create one file
+- name: create a list of all log files
   assemble:
     src: "../files/"
     dest: "../files/file.txt"
@@ -10,11 +10,12 @@
     var: output
     verbosity: 2
 
-- name: run python script
+- name: run the keyword search python script
   script: ../search2.py ../files/file.txt
   register: script_output
 
-- debug:
+- name: Print the outputs from python script
+  debug:
     var: script_output.stdout_lines
 
 
